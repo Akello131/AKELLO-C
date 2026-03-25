@@ -12,7 +12,7 @@ int main(){
 	printf("Dollars=  %.2fDollars\n" , Dollars);
 	
 	Pounds = UgShs / P;
-	printf("Pounds= %.2fPounds\n" , Pounds);
+	printf("Pounds= %.2fPounds\n" , Pounds);  
 	
 	Euros = UgShs / E;
 	printf("Euros= %.2fEuros\n" , Euros);

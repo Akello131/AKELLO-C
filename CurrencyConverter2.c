@@ -26,19 +26,19 @@ int main() {
     switch(choice) {
         case 1:
             result = UgShs / D;
-            printf("Equivalent in Dollars: %.2f\n", result);
+            printf("Dollars= %.2f\n", result);
             break;
         case 2:
             result = UgShs / P;
-            printf("Equivalent in Pounds: %.2f\n", result);
+            printf("Pounds= %.2f\n", result);
             break;
         case 3:
             result = UgShs / E;
-            printf("Equivalent in Euros: %.2f\n", result);
+            printf("Euros= %.2f\n", result);
             break;
         case 4:
             result = UgShs / K;
-            printf("Equivalent in Kenyan Shillings: %.2f\n", result);
+            printf("Kenyan Shillings= %.2f\n", result);
             break;
         default:
             printf("Invalid choice!\n");
