@@ -1,10 +1,6 @@
 #include <stdio.h>
 int main() {
-    // Constants for exchange rates
-    const float D = 3800.0;   // 1 USD = 3800 UGX
-    const float P = 4700.0;   // 1 GBP = 4700 UGX
-    const float E = 4200.0;   // 1 EUR = 4200 UGX
-    const float K = 33.0;     // 1 KES = 33 UGX
+    // Constants for exchange rates 1 USD = 3800 UGX 1 GBP = 4700 UGX 1 EUR = 4200 UGX 1 KES = 33 UGX
 
     float UgShs, result;
     int choice;
@@ -25,7 +21,7 @@ int main() {
     // Perform conversion based on choice
     switch(choice) {
         case 1:
-            result = UgShs / D;
+            result = UgShs / 3800;
             printf("Dollars= %.2f\n", result);
             break;
         case 2:

@@ -1,4 +1,7 @@
-#include <stdio.h>
+const float D = 3800;      //D stands for 1Dollar thus 1Dollar is 3800Ugshs
+	const float P = 4700;      //P stands for 1Pound thus 1Pound is 4700Ugshs
+	const float E = 5200;      //P stands for 1Pound thus 1Euro is 4200Ugshs
+	const float K = 33;        //K stands for 1Kenyan shilling thus 1Ksh is 33Ugshs#include <stdio.h>
 int main(){
 //1Dollar is 3800Ugshs  1Pound is 4700Ugshs  1Euro is 4200Ugshs  1Ksh is 33Ugshs
 float UgShs, Dollars, KShs, Pounds, Euros, Result;  //Result is value if the currency after being converted	
@@ -9,7 +12,7 @@ printf("Enter D for Dollars or K for KShs or P for Pounds or E for Euros: ");
 scanf(" %c", &Currency);
 
 if(Currency == 'D'){
-Result = UgShs / 3800;
+Result = UgShs / D;
 printf("Amount in Dollars is: %.2f", Result);
 }
 else if(Currency == 'K'){
